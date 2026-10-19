@@ -3,8 +3,6 @@
   "moduleDisplayName": "Communication Service",
   "moduleDescription": "AVM Resource Module for Azure Communication Services",
   "canonicalType": "Microsoft.Communication/communicationServices",
-  "owners": [
-    "TBD"
-  ],
-  "telemetryIdPrefix": "TBD"
+  "owners": [],
+  "telemetryIdPrefix": "46d3xtrf.res.79fc4f4"
 }
