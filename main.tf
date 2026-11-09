@@ -32,6 +32,7 @@ resource "azapi_resource" "this" {
       identity_ids = identity.value.identity_ids
     }
   }
+
   dynamic "timeouts" {
     for_each = var.timeouts == null ? [] : [var.timeouts]
 

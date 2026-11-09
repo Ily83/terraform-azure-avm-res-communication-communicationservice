@@ -43,6 +43,7 @@ module "test" {
   parent_id                  = azapi_resource.resource_group.id
   enable_telemetry           = var.enable_telemetry # see variables.tf
   linked_domain_resource_ids = values(module.email.domain_resource_ids)
+  location                   = var.location
   managed_identities = {
     system_assigned = true
   }
