@@ -6,10 +6,7 @@ terraform {
       source  = "Azure/azapi"
       version = "~> 2.13"
     }
-    modtm = {
-      source  = "azure/modtm"
-      version = "~> 0.4"
-    }
+    # tflint-ignore: terraform_unused_required_providers
     random = {
       source  = "hashicorp/random"
       version = "~> 3.9"
